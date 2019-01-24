@@ -1,0 +1,45 @@
+
+$color_1: #959595;
+$background_color_1: #fff;
+$border_color_1: #ddd;
+
+.messages {
+	background-color: $background_color_1;
+	border-color: $border_color_1;
+	border-width: 1px;
+	border-radius: 4px 4px 0 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	position: relative;
+	padding: 45px 15px 15px;
+	margin-top: 15px;
+	border-style: solid;
+	&:after {
+		position: absolute;
+		top: 15px;
+		left: 15px;
+		font-size: 12px;
+		font-weight: 700;
+		color: $color_1;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		content: "Example";
+	}
+}
+
+
+.form-inline .msg-input-group {
+	width: 85%;
+}
+
+.form-inline .msg-submit-group {
+	width: 14%;
+}
+
+.form-inline .msg-input-group .msg-input-control {
+	width: 100%;
+}
+
+.form-inline .msg-submit-group .msg-submit-btn {
+	width: 100%;
+}
